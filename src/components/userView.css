@@ -1,0 +1,75 @@
+.user-view {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+.notification {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.tender-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.tender-table th, .tender-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.tender-table th {
+  background-color: #f2f2f2;
+}
+
+.bid-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.bid-item {
+  background-color: #eef;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+.quotation-form {
+  margin-top: 20px;
+}
+
+.quotation-form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+.quotation-input {
+  padding: 8px;
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit-button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #218838;
+}
